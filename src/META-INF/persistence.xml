@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+	<persistence-unit name="beinggeek-model">
+		<class>com.beinggeek.beinggeekweb.model.Address</class>
+		<class>com.beinggeek.beinggeekweb.model.Category</class>
+		<class>com.beinggeek.beinggeekweb.model.CategoryItem</class>
+		<class>com.beinggeek.beinggeekweb.model.CategoryItemPK</class>
+		<class>com.beinggeek.beinggeekweb.model.CategoryThumbnail</class>
+		<class>com.beinggeek.beinggeekweb.model.CategoryThumbnailPK</class>
+		<class>com.beinggeek.beinggeekweb.model.Color</class>
+		<class>com.beinggeek.beinggeekweb.model.Configuration</class>
+		<class>com.beinggeek.beinggeekweb.model.ConfigurationPK</class>
+		<class>com.beinggeek.beinggeekweb.model.Item</class>
+		<class>com.beinggeek.beinggeekweb.model.ItemSeller</class>
+		<class>com.beinggeek.beinggeekweb.model.ItemSellerPK</class>
+		<class>com.beinggeek.beinggeekweb.model.ItemThumbnail</class>
+		<class>com.beinggeek.beinggeekweb.model.ItemThumbnailPK</class>
+		<class>com.beinggeek.beinggeekweb.model.NavigationItem</class>
+		<class>com.beinggeek.beinggeekweb.model.NavigationItemCategory</class>
+		<class>com.beinggeek.beinggeekweb.model.NavigationItemCategoryPK</class>
+		<class>com.beinggeek.beinggeekweb.model.Review</class>
+		<class>com.beinggeek.beinggeekweb.model.Size</class>
+		<class>com.beinggeek.beinggeekweb.model.Thumbnail</class>
+		<class>com.beinggeek.beinggeekweb.model.User</class>
+		<class>com.beinggeek.beinggeekweb.model.UserAddress</class>
+		<class>com.beinggeek.beinggeekweb.model.UserAddressPK</class>
+		<class>com.beinggeek.beinggeekweb.model.UserPreference</class>
+	</persistence-unit>
+</persistence>
